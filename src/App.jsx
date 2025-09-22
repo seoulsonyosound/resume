@@ -5,7 +5,7 @@ function Sidebar() {
     <aside className="sidebar">
       <img
         className="photo"
-        src="./src/images/tjpic.png"
+        src="/images/tjpic.png"
         alt="Theeanna Jether Alejos profile pic"
       />
       <div className="name">Theeanna Jether Alejos</div>
