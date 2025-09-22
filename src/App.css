@@ -1,0 +1,159 @@
+.container{
+  max-width:1100px;
+  margin:36px auto;
+  display:flex;
+  background:#ffffff;
+  box-shadow:0 6px 20px rgba(0,0,0,.08);
+  min-height:520px;
+  overflow:hidden;
+}
+
+.sidebar{
+  width:320px;
+  background:#094d73;
+  color:#fff;
+  padding:28px 24px;
+  flex-shrink:0;
+  display:flex;
+  flex-direction:column;
+}
+
+.photo{
+  width:100%;
+  aspect-ratio:1/1;
+  object-fit:cover;
+  margin-bottom:18px;
+}
+
+.name{
+  font-size:40px;
+  line-height:1.05;
+  font-weight:700;
+  margin:6px 0 18px;
+  }
+
+.sidebar h4{
+  margin:20px -20px 8px -20px;
+  font-size:22px;
+  padding-bottom:8px;
+  background-color: #073e5c;
+  padding: 8px 20px;
+  }
+
+.sidebar p, .sidebar a, .sidebar li{
+  font-size:17px;
+  color:rgba(255,255,255,.92);
+  margin:6px 0;
+  line-height:1.45;
+}
+
+.sidebar a{ 
+  color:inherit; text-decoration:underline; 
+}
+
+.skills ul{
+  padding-left:18px;
+  margin:8px 0 0;
+}
+
+.main{
+  flex:1;
+  padding:30px 40px;
+}
+
+.summary{
+  color:#333;
+  line-height:1.6;
+  margin:0 0 18px;
+  font-size:17px;
+}
+
+h2.section{
+  margin:15px 0 15px;
+  color:#094d73;
+  font-size:25px;
+}
+
+hr.section-divider {
+  border: none;
+  border-top: 2px solid #ddd;
+  margin: 0 0 15px; /* space below the hr */
+}
+
+.edu-list {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 10px;
+  margin: 18px 0 0;
+}
+
+.edu-item {
+  display: contents;
+}
+
+.edu-content {
+  text-align: left;
+}
+
+.edu-content h4 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  color: #343434;
+  font-weight: 700;
+}
+
+.edu-content .school {
+  font-style: italic;
+  color: #777;
+  font-size: 17px;
+}
+
+.experience-list{
+  margin:18px 0 0;
+}
+
+.job{
+  display:grid;
+  grid-template-columns:120px 1fr;
+  gap:20px;
+  padding:12px 0;
+  align-items:start;
+}
+
+.job:last-child{ 
+  border-bottom:0; padding-bottom:0; 
+}
+
+.job-date{
+  font-size:17px;
+  color:#777;
+  line-height:1.35;
+  white-space:pre-line;
+}
+
+.job-content h4{
+  margin:0 0 6px;
+  font-size:20px;
+  color:#343434;
+  font-weight:700;
+}
+
+.job-content .company{
+  font-style:italic;
+  color:#777;
+  margin-bottom:8px;
+  font-size:17px;
+}
+
+.job-content ul{
+  margin:0;
+  padding-left:18px;
+  margin-top:6px;
+}
+
+.job-content li{
+  margin-bottom:8px;
+  font-size:17px;
+  line-height:1.5;
+  color:#343434
+}
